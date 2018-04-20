@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWorkAPI.cpp">
+      <Filter>99. Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98. Managers\00. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98. Managers\01. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="YSortMgr.cpp">
+      <Filter>98. Managers\02. YSortMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>01. Scenes\01. MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Curtain.cpp">
+      <Filter>98. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>01. Scenes\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>98. Managers\03. BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPanel.cpp">
+      <Filter>02. Objects\01. MenuObj\00. Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>02. Objects\01. MenuObj\01. BG</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePoint.cpp">
+      <Filter>98. Managers\04. MousePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>02. Objects\02. StageObj\00. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinder.cpp">
+      <Filter>98. Managers\05. Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Marker.cpp">
+      <Filter>02. Objects\02. StageObj\01. Marker</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInputMgr.cpp">
+      <Filter>98. Managers\07. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Executer.cpp">
+      <Filter>02. Objects\02. StageObj\02. Executer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>02. Objects\02. StageObj\02. Executer\00. Mover</Filter>
+    </ClCompile>
+    <ClCompile Include="Attacker.cpp">
+      <Filter>02. Objects\02. StageObj\02. Executer\01. Attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Rangefinder.cpp">
+      <Filter>98. Managers\06. RangeFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>02. Objects\02. StageObj\03. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash.cpp">
+      <Filter>02. Objects\02. StageObj\03. Skill\00. Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>99. Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundButton.cpp">
+      <Filter>02. Objects\02. StageObj\04. Menu\00. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>02. Objects\02. StageObj\04. Menu\01. Wheel</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMgr.cpp">
+      <Filter>98. Managers\08. AIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>02. Objects\02. StageObj\03. Skill\01. Heal</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFinder.cpp">
+      <Filter>98. Managers\09. AIFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="AIExecuter.cpp">
+      <Filter>02. Objects\02. StageObj\02. Executer\02. AIExecuter</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>02. Objects\02. StageObj\03. Skill\02. Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>02. Objects\02. StageObj\03. Skill\03. Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="Ice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>97. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>96. Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>97. Header\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>97. Header\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>97. Header\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>97. Header\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWorkAPI.h">
+      <Filter>99. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98. Managers\00. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98. Managers\01. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="YSortMgr.h">
+      <Filter>98. Managers\02. YSortMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>01. Scenes\01. MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Curtain.h">
+      <Filter>98. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>01. Scenes\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>98. Managers\03. BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPanel.h">
+      <Filter>02. Objects\01. MenuObj\00. Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>02. Objects\01. MenuObj\01. BG</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePoint.h">
+      <Filter>98. Managers\04. MousePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>02. Objects\02. StageObj\00. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder.h">
+      <Filter>98. Managers\05. Pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Marker.h">
+      <Filter>02. Objects\02. StageObj\01. Marker</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInputMgr.h">
+      <Filter>98. Managers\07. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Executer.h">
+      <Filter>02. Objects\02. StageObj\02. Executer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.h">
+      <Filter>02. Objects\02. StageObj\02. Executer\00. Mover</Filter>
+    </ClInclude>
+    <ClInclude Include="Attacker.h">
+      <Filter>02. Objects\02. StageObj\02. Executer\01. Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Rangefinder.h">
+      <Filter>98. Managers\06. RangeFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>02. Objects\02. StageObj\03. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>02. Objects\02. StageObj\03. Skill\00. Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>99. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundButton.h">
+      <Filter>02. Objects\02. StageObj\04. Menu\00. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>02. Objects\02. StageObj\04. Menu\01. Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMgr.h">
+      <Filter>98. Managers\08. AIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal.h">
+      <Filter>02. Objects\02. StageObj\03. Skill\01. Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFinder.h">
+      <Filter>98. Managers\09. AIFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="AIExecuter.h">
+      <Filter>02. Objects\02. StageObj\02. Executer\02. AIExecuter</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>02. Objects\02. StageObj\03. Skill\02. Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>02. Objects\02. StageObj\03. Skill\03. Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="Ice.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FrameWorkAPI.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{390d83ef-b3dc-48a7-b90d-18b34c0483cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Header">
+      <UniqueIdentifier>{02b75600-c69a-4f7b-8d44-0f104ece9423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Design">
+      <UniqueIdentifier>{4895ee3c-42d9-4b3b-b60d-f8c3e11be617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Header\00. Include">
+      <UniqueIdentifier>{b2ba3bba-6e23-4750-97f3-c538413ea694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Common">
+      <UniqueIdentifier>{4d066154-64d7-4a42-93fd-a05a93287123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{418d3863-c083-4f64-aa10-599798c59020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers">
+      <UniqueIdentifier>{35dbdfad-006a-4aee-83e5-479ae6d5c970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\00. SceneMgr">
+      <UniqueIdentifier>{56af1b1d-5127-4a97-a029-93898947365b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\01. SoundMgr">
+      <UniqueIdentifier>{964bd58a-d636-41b4-af08-e7d618a78d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\02. YSortMgr">
+      <UniqueIdentifier>{5a552b65-3171-4a5b-a936-52dbeefd5cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects">
+      <UniqueIdentifier>{2f6cf6f8-5e22-4808-abe4-deff9cd4cf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scenes">
+      <UniqueIdentifier>{deb5841d-5608-44e2-9bab-fbf4693d371b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scenes\00. Logo">
+      <UniqueIdentifier>{dac915d3-c30c-432c-ad2c-fc29f5ffe5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scenes\01. MyMenu">
+      <UniqueIdentifier>{bf229965-ff0e-4822-8307-9393a93c8625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\01. MenuObj">
+      <UniqueIdentifier>{55b067ca-8501-4ef1-bd64-7093b005cb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\00. LogoObj">
+      <UniqueIdentifier>{d432bec8-026c-4d0f-970c-d559ec81c3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scenes\02. Stage">
+      <UniqueIdentifier>{eb1d7c33-d008-43c9-8ede-da0c2fe8861a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\03. BitMap">
+      <UniqueIdentifier>{59c4fb94-8b2c-41a4-b365-53091340a87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\01. MenuObj\00. Panel">
+      <UniqueIdentifier>{d6c08577-5e7f-44c4-9f24-65f4a6275c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\01. MenuObj\01. BG">
+      <UniqueIdentifier>{ad800ab5-0c88-413c-bfd3-6ed09c28dba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj">
+      <UniqueIdentifier>{1e848772-7c0f-40b7-8aed-570cb675e4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\04. MousePoint">
+      <UniqueIdentifier>{4d926bff-27c3-4a74-8580-822bf0158cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\00. Tile">
+      <UniqueIdentifier>{0abae47c-bd3c-4eb5-9a26-22726a5eb37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\05. Pathfinder">
+      <UniqueIdentifier>{ec28c660-5d66-40b9-bce6-f07bdd999d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\01. Marker">
+      <UniqueIdentifier>{29eddc86-f70c-4023-beb4-3a5bf05d3879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\02. Executer">
+      <UniqueIdentifier>{086000a0-a3d6-4209-8e7e-f94e768ecb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\02. Executer\00. Mover">
+      <UniqueIdentifier>{79a457ef-39ac-4226-b7ed-7f46a7b84619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\02. Executer\01. Attacker">
+      <UniqueIdentifier>{392e7b19-6653-4abf-8bc0-406b70dea55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\07. KeyMgr">
+      <UniqueIdentifier>{bbec58ae-2319-4025-9305-4b58e47f7813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\06. RangeFinder">
+      <UniqueIdentifier>{5632be8b-2597-4d45-9a5c-60d041999267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill">
+      <UniqueIdentifier>{8dc4bf99-327d-41ed-a1ec-755f06733efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill\00. Slash">
+      <UniqueIdentifier>{a6cdd0f1-b235-4b5f-89ac-c7f44503ca9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\04. Menu">
+      <UniqueIdentifier>{400d8516-71d7-4bae-9f69-01ec287bec9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\04. Menu\00. Button">
+      <UniqueIdentifier>{be3e9a0b-ee79-49a7-8aba-d8334dbfcbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\04. Menu\01. Wheel">
+      <UniqueIdentifier>{7680ba2d-95d6-485d-910d-b9e4d11b7856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill\01. Heal">
+      <UniqueIdentifier>{f59eb992-f808-45ab-aac9-aaa3c7b5ee7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\08. AIMgr">
+      <UniqueIdentifier>{35ab1702-c993-440d-a4dc-f20034d96fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\09. AIFinder">
+      <UniqueIdentifier>{55829066-1b2a-4035-81dc-0e7bfd1a4f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\02. Executer\02. AIExecuter">
+      <UniqueIdentifier>{e2d052dc-6030-4147-93ad-797434dfd88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill\02. Fire">
+      <UniqueIdentifier>{efcd84cf-d478-4997-afa1-83069e81676b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill\03. Thunder">
+      <UniqueIdentifier>{67d22928-0f39-46cf-90b3-851db1ab56cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Objects\02. StageObj\03. Skill\04. Ice">
+      <UniqueIdentifier>{9628a232-35fa-41ad-bc77-39c302eed6be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWorkAPI.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
