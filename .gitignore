@@ -70,3 +70,9 @@ ipch/
 SubmissionInfo
 Generated Files
 AppPackages
+
+#Ignore SRPG Assets
+[Ss]ound/
+[Tt]exture/
+[Vv]ideo/
+*.dat
